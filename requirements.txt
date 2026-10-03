@@ -1,0 +1,13 @@
+# Core (needed to reproduce every number: python run_all.py)
+databento>=0.40
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14
+matplotlib>=3.8
+python-dotenv>=1.0
+jupyter
+
+# Demo app (streamlit run cost_alert.py) and optional sponsor integrations
+streamlit>=1.30
+requests>=2.31
+psycopg[binary]>=3.1
