@@ -1,6 +1,4 @@
 """
-Optional sponsor integrations for the Closing Cost Alert app (MLH prize categories).
-
 None of this is used by run_all.py or by any number in the quant note. Every function
 returns None (or False) when its key is missing, so the app works without them.
 
