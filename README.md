@@ -25,7 +25,7 @@ pip install -r requirements.txt
 cp .env.example .env                 # then put your Databento, gemini,elevanlab key and  tiger database url in .env
 
 python src/download_data.py --go     # imbalances + daily bars (~$30 of Databento credit)
-python src/download_quotes.py --go   # 3:55 PM bid/ask (a few dollars)
+python src/download_quotes.py --go   # 3:55 PM bid/ask (a few dollars around $7-8)
 
 python run_all.py                    # reproduces every number and chart in the quant note
 ```
