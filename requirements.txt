@@ -5,6 +5,8 @@ numpy>=1.26
 pyarrow>=14
 matplotlib>=3.8
 python-dotenv>=1.0
+scikit-learn>=1.3
+xgboost>=2.0          # on macOS, if import fails: brew install libomp
 jupyter
 
 # Demo app (streamlit run cost_alert.py) and optional sponsor integrations
