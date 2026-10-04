@@ -1,0 +1,4 @@
+strategy,split,active_day_pct,avg_names,avg_gross_pct,avg_abs_net_pct,max_abs_net_pct,max_name_weight_pct,worst_position_loss_bps_of_capital,worst_position,best5_days_share_pct
+Closing Pressure,train,93.2,4.3,43.0,25.0,90.0,10.0,-12.3,APP 2025-02-26,
+Closing Pressure,test,86.7,2.9,29.0,17.3,100.0,10.0,-12.4,LULU 2025-12-12,
+"Overnight fade (no cap, as frozen)",test,,,,,,100.0,-403.0,largest single-name day: MRVL 2026-03-05 +1329 bps; with a 10% cap it would be +133 bps,

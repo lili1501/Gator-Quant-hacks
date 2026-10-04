@@ -1,0 +1,5 @@
+split,version,trigger_bps,ann_return_pct,ann_vol_pct,sharpe,max_drawdown_bps
+train,Without rule,39.1,-0.91,0.68,-1.35,-134.5
+train,With de-risk rule,39.1,-0.58,0.52,-1.12,-89.0
+test,Without rule,39.1,-1.47,0.83,-1.76,-189.2
+test,With de-risk rule,39.1,-0.74,0.53,-1.41,-117.0

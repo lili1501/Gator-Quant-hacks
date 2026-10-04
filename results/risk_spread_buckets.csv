@@ -1,0 +1,7 @@
+split,spread_bucket,trades,cutoffs_bps_from_train,avg_half_spread_bps,avg_gross_push_bps,avg_cost_bps,avg_net_bps,t_stat_net
+train,Tight,319,1.86 / 4.30,1.16,4.42,1.66,2.76,2.54
+train,Medium,319,1.86 / 4.30,2.95,1.32,3.45,-2.13,-1.9
+train,Wide,319,1.86 / 4.30,6.91,4.82,7.41,-2.59,-1.99
+test,Tight,141,1.86 / 4.30,1.25,5.31,1.75,3.56,1.96
+test,Medium,219,1.86 / 4.30,2.92,5.8,3.42,2.38,1.32
+test,Wide,271,1.86 / 4.30,9.02,1.01,9.52,-8.5,-4.61

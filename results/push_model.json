@@ -1,0 +1,40 @@
+{
+  "features": [
+    "x_sqrt_imb",
+    "x_imb_to_paired",
+    "x_growth"
+  ],
+  "clip": {
+    "x_sqrt_imb": [
+      -3.040195320094028,
+      3.1991022127724276
+    ],
+    "x_imb_to_paired": [
+      -0.8861703616585379,
+      0.9786017764086017
+    ],
+    "x_growth": [
+      -6.552057065779554,
+      6.90093308066577
+    ]
+  },
+  "intercept": -0.16445296281903782,
+  "coef": {
+    "x_sqrt_imb": -1.8823296101318228,
+    "x_imb_to_paired": 12.037869930060564,
+    "x_growth": 0.43818712703877
+  },
+  "train_score": {
+    "corr": 0.126,
+    "r2": 0.0159,
+    "direction_hit_rate_top10": 0.57,
+    "avg_crowded_push_top10_bps": 2.63
+  },
+  "test_score": {
+    "corr": 0.109,
+    "r2": 0.0113,
+    "direction_hit_rate_top10": 0.569,
+    "avg_crowded_push_top10_bps": 2.07
+  },
+  "notes": "OLS on year 1 (Oct 2024 - Sep 2025). Target: 3:55 PM -> close move, market-adjusted, in bps. Positive = price pushed up."
+}

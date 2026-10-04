@@ -1,0 +1,10 @@
+model,inputs,train_corr,train_r2_pct,train_direction_hit_top10_imb,train_captured_bps_top10_pred,test_corr,test_r2_pct,test_direction_hit_top10_imb,test_captured_bps_top10_pred,overfit_gap_corr
+No skill (predict 0),-,0.0,0.0,0.5,0.0,0.0,0.0,0.5,0.0,0.0
+Linear,3 inputs,0.126,1.59,0.57,6.46,0.109,1.13,0.569,6.67,0.017
+Linear,10 inputs,0.135,1.81,0.571,6.2,0.109,1.15,0.562,6.33,0.026
+Random forest,3 inputs,0.176,2.79,0.571,7.54,0.101,1.01,0.571,6.77,0.075
+Random forest,10 inputs,0.227,4.24,0.596,9.91,0.106,1.12,0.563,6.42,0.121
+Gradient boosting,3 inputs,0.157,2.3,0.578,7.31,0.101,0.99,0.57,6.39,0.056
+Gradient boosting,10 inputs,0.232,4.71,0.589,11.34,0.1,0.96,0.564,5.91,0.132
+XGBoost,3 inputs,0.199,3.64,0.592,9.21,0.095,0.88,0.566,5.96,0.104
+XGBoost,10 inputs,0.294,7.24,0.618,14.02,0.085,0.41,0.556,5.04,0.209

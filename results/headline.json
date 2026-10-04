@@ -1,0 +1,76 @@
+{
+  "closing_pressure": {
+    "train": {
+      "trades": 957.0,
+      "avg_net_bps_per_trade": -0.65,
+      "ann_return_pct": -0.91,
+      "ann_vol_pct": 0.68,
+      "sharpe": -1.35,
+      "t_stat": -1.31,
+      "max_drawdown_bps": -134.5,
+      "turnover_x_per_year": 202.0,
+      "deflated_sharpe_prob": 0.0
+    },
+    "test": {
+      "trades": 631.0,
+      "avg_net_bps_per_trade": -2.03,
+      "ann_return_pct": -1.47,
+      "ann_vol_pct": 0.83,
+      "sharpe": -1.76,
+      "t_stat": -1.75,
+      "max_drawdown_bps": -189.2,
+      "turnover_x_per_year": 127.0,
+      "deflated_sharpe_prob": 0.0
+    }
+  },
+  "closing_pressure_rule": {
+    "signal": "model",
+    "quantile": 0.95,
+    "threshold": 5.6722428921325685,
+    "filter": true,
+    "n_variants_tested": 12,
+    "chosen_on": "train year only (best Sharpe after costs)"
+  },
+  "overnight_fade": {
+    "train": {
+      "trades": 769.0,
+      "avg_net_bps_per_trade": 9.75,
+      "ann_return_pct": 35.1,
+      "ann_vol_pct": 14.13,
+      "sharpe": 2.48,
+      "t_stat": 2.41,
+      "max_drawdown_bps": -469.1,
+      "turnover_x_per_year": 406.0,
+      "deflated_sharpe_prob": 0.665
+    },
+    "test": {
+      "trades": 701.0,
+      "avg_net_bps_per_trade": 4.33,
+      "ann_return_pct": 15.96,
+      "ann_vol_pct": 19.11,
+      "sharpe": 0.84,
+      "t_stat": 0.83,
+      "max_drawdown_bps": -842.2,
+      "turnover_x_per_year": 385.0,
+      "deflated_sharpe_prob": 0.074
+    }
+  },
+  "push_model_test": {
+    "corr": 0.109,
+    "r2": 0.0113,
+    "direction_hit_rate_top10": 0.569,
+    "avg_crowded_push_top10_bps": 2.07
+  },
+  "capacity_peak_standard_impact": {
+    "Closing Pressure": {
+      "aum_usd": 100000.0,
+      "annual_profit_usd": -1627.0,
+      "annual_return_pct": -1.63
+    },
+    "Overnight fade": {
+      "aum_usd": 1000000.0,
+      "annual_profit_usd": 41480.0,
+      "annual_return_pct": 4.15
+    }
+  }
+}

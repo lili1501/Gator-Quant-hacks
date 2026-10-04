@@ -1,0 +1,9 @@
+split,strategy,trades,active_days,avg_names_per_active_day,avg_gross_used,avg_abs_net_exposure,avg_gross_edge_bps,avg_cost_bps,avg_net_bps_per_trade,hit_rate_after_costs,total_net_bps,ann_return_pct,ann_vol_pct,sharpe,t_stat,max_drawdown_bps,turnover_x_per_year,skew,deflated_sharpe_prob
+train,Closing Pressure (main),957,221,4.3,0.4,0.233,3.52,4.17,-0.65,0.465,-85.9,-0.91,0.68,-1.35,-1.31,-134.5,202.0,0.25,0.0
+train,Double costs,957,221,4.3,0.4,0.233,3.52,8.35,-4.83,0.37,-510.2,-5.42,0.71,-7.59,-7.36,-510.2,202.0,-0.18,0.0
+train,No per-name cap,957,221,4.3,0.93,0.569,3.52,4.17,-0.65,0.465,-253.7,-2.7,1.92,-1.41,-1.36,-416.8,470.0,-0.05,0.0
+train,Not market-hedged,957,221,4.3,0.4,0.233,4.18,4.17,0.01,0.473,4.1,0.04,0.81,0.05,0.05,-119.2,202.0,0.66,0.02
+test,Closing Pressure (main),631,216,2.9,0.25,0.15,3.63,5.67,-2.03,0.423,-145.2,-1.47,0.83,-1.76,-1.75,-189.2,127.0,0.64,0.0
+test,Double costs,631,216,2.9,0.25,0.15,3.63,11.33,-7.7,0.347,-519.6,-5.26,0.9,-5.81,-5.78,-545.4,127.0,-0.28,0.0
+test,No per-name cap,631,216,2.9,0.87,0.58,3.63,5.67,-2.03,0.423,-650.6,-6.58,2.77,-2.38,-2.36,-773.0,437.0,-0.16,0.0
+test,Not market-hedged,631,216,2.9,0.25,0.15,3.97,5.67,-1.7,0.444,-107.4,-1.09,0.88,-1.24,-1.24,-171.1,127.0,0.54,0.001

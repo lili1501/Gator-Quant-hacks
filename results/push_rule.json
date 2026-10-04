@@ -1,0 +1,8 @@
+{
+  "signal": "model",
+  "quantile": 0.95,
+  "threshold": 5.6722428921325685,
+  "filter": true,
+  "n_variants_tested": 12,
+  "chosen_on": "train year only (best Sharpe after costs)"
+}

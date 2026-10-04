@@ -1,0 +1,15 @@
+strategy,split,regime,days,mean_daily_bps,sharpe
+Closing Pressure,train,Calm,79,-0.11,-0.45
+Closing Pressure,train,Normal,78,-0.01,-0.05
+Closing Pressure,train,Volatile,79,-0.96,-3.36
+Closing Pressure,test,Calm,67,0.81,3.26
+Closing Pressure,test,Normal,120,-1.24,-3.31
+Closing Pressure,test,Volatile,62,-0.82,-2.71
+Overnight fade,train,Calm,79,4.24,1.51
+Overnight fade,train,Normal,78,29.51,3.66
+Overnight fade,train,Volatile,79,7.58,1.63
+Overnight fade,test,Calm,67,4.5,0.78
+Overnight fade,test,Normal,120,7.35,1.3
+Overnight fade,test,Volatile,62,6.35,0.55
+Closing Pressure,stress,Apr 2025 tariff shock,21,-2.1,
+Closing Pressure,stress,10 largest market-move days,10,-0.6,
