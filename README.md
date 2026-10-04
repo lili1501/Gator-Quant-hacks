@@ -1,4 +1,6 @@
-# Who Gets Paid at the Close? Closing-Auction Imbalances, Two Strategies and a Closing Cost Alert
+# CloseWatch
+
+> Who Gets Paid at the Close? Closing-Auction Imbalances, Two Strategies and a Closing Cost Alert
 
 **Gator Quant Hacks 2026 · Systematic Trading track · Data: Databento**
 
@@ -145,3 +147,5 @@ by any number in the quant note):
 - Two years and 100 stocks; year-2 strategy results are not statistically significant.
 - Costs use the quoted spread at 3:55 PM plus fixed fees and a square-root impact model, not real fills.
 - Capacity is small (≈ $1–2M), so this is a cost signal for large funds more than a standalone strategy.
+
+---
