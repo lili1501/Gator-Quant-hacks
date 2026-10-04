@@ -9,7 +9,7 @@ closing price, (2) reverses overnight, and (3) can be traded, or used to warn fu
 cost of trading on the crowded side.
 
 **Finding in one line:** the closing push is real and predictable, but it is smaller than the
-cost of trading it. It is a cost, not a profit, so we built a tool for the funds that pay it.
+cost of trading it. It is a cost, not a profit, so we built a tool for the funds that pay itt.
 
 - **Quant note (PDF):** [`quant_note.pdf`](quant_note.pdf)
 - **Hypotheses and frozen test procedure:** [`HYPOTHESES.md`](HYPOTHESES.md). H6 (Closing Pressure),
