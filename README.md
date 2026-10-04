@@ -84,12 +84,12 @@ No raw data or trade-level files are committed; the download scripts recreate th
 
 | # | Hypothesis | Verdict |
 |---|---|---|
-| H1 | Large imbalances push the close their way | ✅ Supported in both years |
-| H2 | The push reverses overnight | ⚠️ Weak, unstable across cut-offs |
-| H3 | Forced-looking imbalances reverse more | ✅ Directional (in year 2 the filter doubles the fade's Sharpe, 0.42 → 0.84, and cuts its worst drawdown) |
-| H4 | Overnight fade is profitable | ❌ Not significant; one earnings night (MRVL, +1,329 bps) made most of the profit |
-| H5 | The push is predictable at 3:55 PM | ✅ Supported; the simple linear model beats XGBoost out of sample |
-| H6 | Trading with the imbalance into the close is profitable | ❌ Rejected against its pre-set criteria; the spread eats the push |
+| H1 | Large imbalances push the close their way | Supported in both years |
+| H2 | The push reverses overnight |  Weak, unstable across cut-offs |
+| H3 | Forced-looking imbalances reverse more | Directional (in year 2 the filter doubles the fade's Sharpe, 0.42 → 0.84, and cuts its worst drawdown) |
+| H4 | Overnight fade is profitable | Not significant; one earnings night (MRVL, +1,329 bps) made most of the profit |
+| H5 | The push is predictable at 3:55 PM |  Supported; the simple linear model beats XGBoost out of sample |
+| H6 | Trading with the imbalance into the close is profitable | Rejected against its pre-set criteria; the spread eats the push |
 
 **Variants tested:** 32 strategy variants and settings in total, including the 12 Closing Pressure
 variants, all disclosed in the note; the deflated Sharpe ratio corrects for all of them.
