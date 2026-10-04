@@ -22,7 +22,7 @@ cost of trading it. It is a cost, not a profit, so we built a tool for the funds
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env                 # then put your Databento key in .env
+cp .env.example .env                 # then put your Databento, gemini,elevanlab key and  tiger database url in .env
 
 python src/download_data.py --go     # imbalances + daily bars (~$30 of Databento credit)
 python src/download_quotes.py --go   # 3:55 PM bid/ask (a few dollars)
