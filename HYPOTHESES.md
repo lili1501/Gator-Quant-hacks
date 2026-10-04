@@ -3,6 +3,9 @@
 **Data:** 100 Nasdaq stocks, Databento. **Year 1** (Oct 2024 – Sep 2025) = in-sample;
 **year 2** (Oct 2025 – Sep 2026) = out-of-sample, run once per frozen rule.
 
+**Status:** H1–H5 were first explored in an earlier working repo (Oct 2–3, 2026), so they are
+not blind tests; this repo re-runs them from scratch. **H6 was written down here, with its rule
+and success criteria, before it was ever run** (see the git history). Results are in the quant note.
 
 | # | Hypothesis | Why |
 |---|---|---|
@@ -26,4 +29,10 @@ Partial: Sharpe > 0 and t > 1. Otherwise rejected.
 
 ## Amendments
 
-_None._
+- **Oct 3, 2026, before the H6 run:** added `src/model_comparison.py` (linear vs random forest vs gradient
+  boosting vs XGBoost on identical inputs, trained on year 1, scored once on year 2). Robustness only; it does
+  not select or change any rule.
+- **Oct 3, 2026, after the H6 run:** added a capacity analysis for the overnight fade and a spread-tercile
+  diagnostic of Closing Pressure trades (`src/risk_capacity.py`). Both are exploratory and change no frozen
+  rule or H1–H6 verdict. The diagnostic motivates **H7**: Closing Pressure restricted to half-spreads below
+  1.86 bps (year-1 cut-off), to be tested only on data after Sep 2026.
