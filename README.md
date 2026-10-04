@@ -141,6 +141,7 @@ by any number in the quant note):
 | **Google Gemini API** | "Explain (Gemini)": a plain-English briefing for a portfolio manager |
 | **ElevenLabs** | "Read aloud (ElevenLabs)": the alert as speech |
 | **Tiger Data (TimescaleDB)** | Serves the replay from a hypertable + continuous aggregate (`time_bucket`, 10 s); load with `python src/load_tigerdata.py` (last 60 days) |
+| **Vultr** | Hosts the live demo: Ubuntu cloud instance running the app as a background service behind nginx, with password protection (login for judges is in our Devpost submission) |
 
 ## Limitations
 
